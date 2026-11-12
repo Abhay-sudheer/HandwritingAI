@@ -1,0 +1,6 @@
+# Isolated backend-only environment for machines that block unsigned native extensions.
+# FastAPI 0.125 is the last FastAPI release line with Pydantic v1 support.
+fastapi==0.125.0
+pydantic==1.10.26
+uvicorn==0.54.0
+python-multipart==0.0.33

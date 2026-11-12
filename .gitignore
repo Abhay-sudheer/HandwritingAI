@@ -1,0 +1,39 @@
+# Python environments and bytecode
+.venv/
+.backend-pure-venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend dependencies and generated output
+node_modules/
+**/node_modules/
+.vite/
+**/.vite/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Local configuration and secrets
+.env*
+!.env.example
+
+# Runtime data, temporary files, and logs
+backend/data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.tmp
+*.temp
+*.bak
+*.pre-wasm-backup
+**/.cache/
+
+# Model weights / downloaded model directories
+models/
+**/models/
+*.safetensors
+pytorch_model*.bin
