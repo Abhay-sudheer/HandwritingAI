@@ -1,4 +1,4 @@
-# InkSight AI
+# HandwritingAI (InkSight AI)
 
 InkSight AI converts handwritten English images into editable text. It uses the locally downloaded `microsoft/trocr-base-handwritten` model through Transformers and PyTorch when those packages can load. Images are processed in memory; SQLite stores text and metadata only.
 
